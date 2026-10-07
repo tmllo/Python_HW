@@ -1,0 +1,14 @@
+[project]
+name = "calculator"
+version = "0.1.0"
+description = "A simple command-line calculator"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+calculator = "calculator:main"
+
+[build-system]
+requires = ["uv_build>=0.12.22,<0.13.0"]
+build-backend = "uv_build"
